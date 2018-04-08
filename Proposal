@@ -1,0 +1,33 @@
+CMPUT 275 Project Proposal: Middle Age: Plane War
+
+Description: The project is a Strategy turn-based Game. Two countries on a map with hexagon
+lattices will fight with each other. Player can choose left side or right side of
+the map to attack and defend computer. The goal of the game is to control the
+different types of soldiers to expand territory and conquer the opposite country.
+Every turn you will earn some money, you can use money upgrade or produced Soldiers
+There are several kinds of soldiers like archer, saber, knights which deal
+different damages. Each type of soldier can deal extra damages on another
+specific kinds of soldiers. Player send Soldiers to the lattice on the map.
+Then there will generate an area seen as territory of this country. The soldier
+will go to that lattice with a path calculated by Dijkstra algorithm and it will
+take some turns for soldiers reach the lattice. There are mists on the unoccupied
+and enemy territories. Your army can detected mists of the six lattices around it.
+Initially you will have several lighthouse on the map that can detected some area
+and you will have a initial territory. The enemy have been detected will be marked
+and can be seen all the time. The data of different soldiers will be stored using
+AVL tree.
+
+Milestone:
+March 25
+create basic data, algorithm. design UI and soldier appearance with photoshop.
+design map
+Demo: Cannot demo at this point
+
+April 1
+import Graphic package, use the picture design in last week.
+Demo: the game now can played by one player.
+
+April 8
+add AI to the game, try to make AI smarter. After AI is fully functional
+add mist to the Game. If time is enough, add more maps to the game
+Demo: the game now is ready to play
