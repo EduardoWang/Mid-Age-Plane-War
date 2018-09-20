@@ -1,0 +1,74 @@
+Name: Hongru Qi 1500246
+Partner: Jiahui Wang 1497960
+Date: April 15, 2018
+
+List of files:
+* .main.py
+* .Functions.py
+* .variables.py
+* .README
+* .map1.txt
+* .map.jpg
+* .start.jpg
+* .archer.png
+* .cavalry.png
+* .infantry.png
+* .pikeman.png
+* .train_archer.png
+* .train_cavalry.png
+* .train_infantry.png
+* .train_pikeman.png
+* .counter.png
+* .smallWindowBack.jpg
+* .soldier_back.png
+* .information.png
+* .watchtower.png
+* .UI.png
+
+Running Instructions:
+1. Download and decompress the file package
+2. Run the main function with "python3 main.py"
+3. Click start and enjoy our game
+4. Quit the game by entering "'ctrl' C" in terminal
+5. If the game runs slowly, please allow VM to use more memory and CPU cores
+
+Description:
+Mid-Age: Plane War is a historical SLG strategy game where the player will
+develop economy and technology to build your own army to defeat the AI. Player
+and AI will take turn to operate. Player will have a certain amount of gold and
+you can decide to use them to train army or develop economy or technology. Based
+on the history of Mid-age in Europe, there are four types of soldier can be
+trained including infantry, cavalry, pike-man and archer and there is a cycling
+restraint among them according to history. The goal is to conquer the enemy's
+base. No matter how much army your enemy controls, as long as your army
+successfully reaches your enemy's base, you will win this game and vice versa.
+Smart combination of army and suitable timing of developing economy and
+technology will be the key to success.
+There is a UI.png file shows the game interface. The major part of the game is
+happening in the checkerboard in the middle which is structured with 63 hexagons
+with player's and AI's base. The up left part of the checkerboard colored in
+blue is your base and the hexagons colored in light green are the territories
+you own. The red part in the right bottom corner is the AI's base where your
+goal is to conquer it. In the upper left corner of the page shows the four
+types of soldiers to be trained with their counter relation beside. The top part
+is a status bar which shows the gold you own, your current technology and the
+gold required to upgrade. For example, Attack: 1/100 shows that your current
+attack for each soldier is 1 and requires 100 gold. There are limitations for
+upgrading attack and speed but not for gold. Notice that the gold you own will
+not pass to the next round.
+
+Operation:
+In the player round, user can press different keys to get into several modes for
+different purposes.
+P: train mode (choose soldier type at the up left corner and enter the amount).
+Q: confirm the number of soldiers to be trained.
+A: attack mode (click the army first then click the destination).
+U: upgrade mode (click the technology to upgrade).
+W: quit the current mode (notice you need to quit the current mode in order to
+proceed with other operation).
+E: end of your turn.
+
+Furthermore, if you have met any problem during the game or about game, please
+contact hqi@ualberta.ca. I will be more than welcome to answer your question.
+
+Have fun with our game ^_^
